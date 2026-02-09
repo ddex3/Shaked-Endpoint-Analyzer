@@ -1,0 +1,25 @@
+{
+  "name": "shaked-endpoint-analyzer",
+  "version": "1.0.0",
+  "description": "HTTP endpoint health and analysis API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddex3/Shaked-Endpoint-Analyzer.git"
+  },
+  "keywords": ["endpoint", "analyzer", "health-check", "api"],
+  "author": "Shaked",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddex3/Shaked-Endpoint-Analyzer/issues"
+  },
+  "homepage": "https://github.com/ddex3/Shaked-Endpoint-Analyzer#readme",
+  "dependencies": {
+    "axios": "^1.13.5",
+    "express": "^5.2.1"
+  }
+}
